@@ -14,7 +14,7 @@
         <p class="h1">SportZone</p>
         <div class="imgen">
 
-            <div class="bg-danger text-right">
+            <div class="bs-danger right">
                 <form method="post">
                     <p class="h2">Bienvenido</p>
                     <?php
@@ -24,7 +24,7 @@
 
                     ?>
 
-                    <div class="input-div one bg-primary">
+                    <div class="input-div one bs-warning">
                         <div class="i">
                             <i class="fas fa-user"></i>
                         </div>
