@@ -16,7 +16,7 @@
 
             <div class="bg-danger text-right">
                 <form method="post">
-                    <p class="h2">Bienvenido</p>
+                    <p class="h2">Bienvenido Usuario</p>
                     <?php
                     include "conexion_bd.php";
                     include "controlador.php";
