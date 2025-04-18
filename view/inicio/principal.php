@@ -1,8 +1,7 @@
 <main class="app-content">
       <div class="app-title">
         <div>
-          <h1><i class="bi bi-speedometer"></i> Dashboard</h1>
-          <p>A free and open source Bootstrap 5 admin template</p>
+          <h1><i class="bi bi-speedometer"></i> BIENVENIDO</h1>
         </div>
         <ul class="app-breadcrumb breadcrumb">
           <li class="breadcrumb-item"><i class="bi bi-house-door fs-6"></i></li>
