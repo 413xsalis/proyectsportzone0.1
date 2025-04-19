@@ -1,63 +1,72 @@
 <main class="app-content">
-      <div class="app-title">
-        <div>
-          <h1><i class="bi bi-speedometer"></i> BIENVENIDO</h1>
-        </div>
-        <ul class="app-breadcrumb breadcrumb">
-          <li class="breadcrumb-item"><i class="bi bi-house-door fs-6"></i></li>
-          <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
-        </ul>
+  <div class="app-title d-flex justify-content-between align-items-center">
+    <div>
+      <h1><i class="bi bi-speedometer"></i> BIENVENIDO</h1>
+    </div>
+    <ul class="app-breadcrumb breadcrumb">
+      <li class="breadcrumb-item"><i class="bi bi-house-door fs-6"></i></li>
+      <li class="breadcrumb-item active">Dashboard</li>
+    </ul>
+  </div>
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <div class="tile">
+        <h3 class="tile-title">Calendario</h3>
+        <input type="date" class="form-control">
       </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-3">
-          <div class="widget-small primary coloured-icon"><i class="icon bi bi-people fs-1"></i>
-            <div class="info">
-              <h4>Users</h4>
-              <p><b>5</b></p>
+    </div>
+    <div class="col-md-6">
+      <div class="tile">
+        <h3 class="tile-title">Lista de alumnos</h3>
+        <div class="list-group">
+          <!-- ITEM -->
+          <div class="list-group-item d-flex justify-content-between align-items-center">
+            <div>
+              <strong>Estudiante</strong><br>
+              <small>Horario (No establecido)</small>
+            </div>
+            <div>
+              <label class="me-2">
+                <input type="checkbox" class="form-check-input me-1"> Asistió
+              </label>
+              <label>
+                <input type="checkbox" class="form-check-input me-1"> No asistió
+              </label>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="widget-small info coloured-icon"><i class="icon bi bi-heart fs-1"></i>
-            <div class="info">
-              <h4>Likes</h4>
-              <p><b>25</b></p>
+
+          <!-- ITEM -->
+          <div class="list-group-item d-flex justify-content-between align-items-center">
+            <div>
+              <strong>Estudiante</strong><br>
+              <small>Horario (No establecido)</small>
+            </div>
+            <div>
+              <label class="me-2">
+                <input type="checkbox" class="form-check-input me-1"> Asistió
+              </label>
+              <label>
+                <input type="checkbox" class="form-check-input me-1"> No asistió
+              </label>
             </div>
           </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="widget-small warning coloured-icon"><i class="icon bi bi-folder2 fs-1"></i>
-            <div class="info">
-              <h4>Uploades</h4>
-              <p><b>10</b></p>
+
+          <!-- ITEM -->
+          <div class="list-group-item d-flex justify-content-between align-items-center">
+            <div>
+              <strong>Estudiante</strong><br>
+              <small>Horario (No establecido)</small>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="widget-small danger coloured-icon"><i class="icon bi bi-star fs-1"></i>
-            <div class="info">
-              <h4>Stars</h4>
-              <p><b>500</b></p>
+            <div>
+              <label class="me-2">
+                <input type="checkbox" class="form-check-input me-1"> Asistió
+              </label>
+              <label>
+                <input type="checkbox" class="form-check-input me-1"> No asistió
+              </label>
             </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="tile">
-            <h3 class="tile-title">Weekly Sales - Last week</h3>
-            <div class="ratio ratio-16x9">
-              <div id="salesChart"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="tile">
-            <h3 class="tile-title">Support Requests</h3>
-            <div class="ratio ratio-16x9">
-              <div id="supportRequestChart"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
+    </div>
+</main>
