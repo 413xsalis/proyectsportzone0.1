@@ -12,8 +12,6 @@ class InicioControlador{
 // Obtiene conexión a la base de datos
         $bd = Database::Conectar();
 // Carga las vistas en orden específico
-        require_once "view/inicio/header.php";
-        require_once "view/inicio/footer.php";
-        require_once "view/inicio/principal.php";
+        require_once "view/login/login.php";
     }
 }
