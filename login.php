@@ -17,7 +17,10 @@
 
 
     ?>
-    <section class="h-100 gradient-form" style="background-color: #eee;">
+    <section class="h-100 gradient-form" style="background-image: url('Fondodeporte.jpeg');
+                                                background-size: cover;
+                                                background-repeat: no-repeat;
+                                                background-position: center;">
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-xl-10">
@@ -50,6 +53,15 @@
                                             <div data-mdb-input-init class="form-outline mb-4">
                                                 <input type="password" id="form2Example22" class="form-control" />
                                                 <label class="form-label" for="form2Example22">Contraseña</label>
+                                            </div>
+
+                                            <div class="mb-4">
+                                                <label for="roleSelect" class="form-label">Selecciona tu rol</label>
+                                                <select id="roleSelect" class="form-select">
+                                                    <option value="administrador">Administrador</option>
+                                                    <option value="colaboradores">Colaboradores</option>
+                                                    <option value="instructores">Instructores</option>
+                                                </select>
                                             </div>
 
                                             <div class="text-center pt-1 mb-5 pb-1">
