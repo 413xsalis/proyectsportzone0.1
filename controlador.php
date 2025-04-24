@@ -1,16 +1,26 @@
 <?php
-if(!empty($_POST["botoningresar"])) {
-    if (empty($_POST["usuario"]) and empty($_POST["password"])) {
-        echo"LOS CAMPOS ESTAN VACIOS";
-    } else {
-        $usuario=$_POST['usuario'];
-        $clave=$_POST['password'];
-        $sql=$conexion->query("SELECT * FROM usuario where usuario='$usuario' and clave='$clave'");
-        if ($datos=$sql->fetch_object()) {
-            header("location:inicio.php");
-        } else {
-            echo"ACCESO DENEGADO";
+session_start(); // Iniciar sesión
+include "conexion_bd.php";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $login = $_POST["usuario"];
+    $contraseña = $_POST["contraseña"];
+
+    // Consultar la base de datos
+    $sql = "SELECT * FROM usuarios_sistema WHERE login='$usuario' AND contraseña='$contraseña'";
+    $result = $conexion->query($sql);
+
+    if ($result->num_rows > 0) {
+        // Redirigir según el rol
+        if ($rol == "administrador") {
+            header("Location: administrador.php");
+        } elseif ($rol == "colaboradores") {
+            header("Location: colaboradores.php");
+        } elseif ($rol == "instructores") {
+            header("Location: instructores.php");
         }
-    }   
+    } else {
+        echo "<script>alert('Credenciales incorrectas');</script>";
     }
+}
 ?>
