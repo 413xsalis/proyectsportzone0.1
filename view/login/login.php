@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="view\login\styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <title>LOGIN SportZone 12344</title>
@@ -12,12 +12,15 @@
 
 <body>
     <?php
-        include "models\conexion_bd.php";
-        include "controllers\controlador.php";
+        include "conexion_bd.php";
+        include "controlador.php";
 
 
     ?>
-    <section class="h-100 gradient-form" style="background-color: #eee;">
+    <section class="h-100 gradient-form" style="background-image: url('Fondodeporte.jpeg');
+                                                background-size: cover;
+                                                background-repeat: no-repeat;
+                                                background-position: center;">
         <div class="container py-5 h-100">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-xl-10">
@@ -38,7 +41,7 @@
                                             <h4 class="mt-1 mb-5 pb-1">¡Bienvenidos!</h4>
                                         </div>
 
-                                        <form>
+                                        <form method="POST" action="controlador.php">
                                             <p>Por favor inicia sesión con tu cuenta</p>
 
                                             <div data-mdb-input-init class="form-outline mb-4">
@@ -52,6 +55,15 @@
                                                 <label class="form-label" for="form2Example22">Contraseña</label>
                                             </div>
 
+                                            <div class="mb-4">
+                                                <label for="roleSelect" class="form-label">Selecciona tu rol</label>
+                                                <select id="roleSelect" class="form-select">
+                                                    <option value="administrador">Administrador</option>
+                                                    <option value="colaboradores">Colaboradores</option>
+                                                    <option value="instructores">Instructores</option>
+                                                </select>
+                                            </div>
+
                                             <div class="text-center pt-1 mb-5 pb-1">
                                                 <button data-mdb-button-init data-mdb-ripple-init
                                                     class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3"
@@ -60,7 +72,7 @@
                                                 <a class="text-muted" href="#!">¿Olvidaste tu contraseña?</a>
                                             </div>
 
-
+                                            
 
                                         </form>
 
