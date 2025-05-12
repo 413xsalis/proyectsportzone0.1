@@ -11,8 +11,8 @@ class InicioControlador{
     public function inicio(){
         $bd = database::Conectar();
 
-        require_once "view/inicio/header.php";
-        require_once "view/inicio/footer.php";
-        require_once "view/inicio/principal.php";
+        require_once "view/formulario/header.php";
+        require_once "view/formulario/footer.php";
+        require_once "view/formulario/principal.php";
     }
 }
