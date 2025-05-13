@@ -78,7 +78,7 @@
         <div>
         <ul class="app-breadcrumb breadcrumb">
           <li class="breadcrumb-item"><i class="bi bi-house-door fs-6"></i></li>
-          <li class="app-sidebar__user-designation breadcrumb-item"><a href="#">Inicio</a></li>
+          <li class="app-sidebar__user-designation breadcrumb-item"><a href="#">Inicio11</a></li>
 
         </div>
       </div>
@@ -111,7 +111,7 @@
         <div class="col-md-6 col-lg-3">
           <div class="widget-small primary coloured-icon">
             <div class="info">
-              <h4>Total de Alumnos</h4>
+              <h4>Total de Alumnos11</h4>
               <p><b>5</b></p>
             </div>
           </div>
