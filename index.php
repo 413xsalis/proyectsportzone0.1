@@ -1,4 +1,6 @@
-<?php
+
+
+<!-- php
 // Inclusión del archivo de conexión a la base de datos
 require_once "models/database.php";
 
@@ -22,4 +24,4 @@ if(!isset($_GET['c'])){
     // Obtiene la acción a ejecutar (parámetro 'a'), o usa "Inicio" por defecto
     $accion = isset($_GET['a']) ? $_GET['a'] : "Inicio";
     call_user_func(array($controlador,$accion));
-}
+} -->
