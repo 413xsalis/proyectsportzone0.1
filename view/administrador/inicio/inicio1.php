@@ -84,7 +84,7 @@
       </div>
       <ul class="app-menu">
 
-        <li class=""><a class="app-menu__item" href="index.php?accion=asignar" data-toggle="treeview"><i class="app-menu__icon bi bi-laptop"></i><span class="app-menu__label">Gestion de Usuarios</span><i class="bi bi-chevron-right"></i></a>
+        <li class=""><a class="" href="index.php?accion=Gestionar_usuarios" data-toggle="treeview"><i class="app-menu__icon bi bi-laptop"></i><span class="app-menu__label">Gestion de Usuarios</span><i class="bi bi-chevron-right"></i></a>
         </li>
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon bi bi-ui-checks"></i><span class="app-menu__label">Formulario de Empleados</span><i class="treeview-indicator bi bi-chevron-right"></i></a>
           <ul class="treeview-menu">
@@ -99,4 +99,63 @@
           </ul>
         </li>
     </aside>
- 
+ <main class="app-content">
+      <div class="app-title">
+        <div>
+          <h1><i class="bi "></i> Bienvenido</h1>
+          <p></p>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="widget-small primary coloured-icon">
+            <div class="info">
+              <h4>Total de Alumnos</h4>
+              <p><b>5</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="widget-small info coloured-icon">
+            <div class="info">
+              <h4>Entrenadores</h4>
+              <p><b>25</b></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="widget-small warning coloured-icon">
+            <div class="info">
+              <h4>Pagos Pendientes</h4>
+              <p><b>10</b></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="tile">
+            <h3 class="tile-title">Pronto estara el calendario</h3>
+            <div class="ratio ratio-16x9">
+              <div id="salesChart"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="tile">
+            <h3 class="tile-title">Asistencia Semanal</h3>
+            <div class="ratio ratio-16x9">
+              <div id="supportRequestChart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+        <!-- Essential javascripts for application to work-->
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
