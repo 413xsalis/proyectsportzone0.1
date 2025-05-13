@@ -1,6 +1,7 @@
 <?php
 // Inclusión del archivo de conexión a la base de datos
 require_once "models/database.php";
+include "models/conexion_bd.php";
 
 // Si no se especifica un controlador en la URL (parámetro 'c')
 if(!isset($_GET['c'])){

@@ -1,16 +1,20 @@
 <?php
-if(!empty($_POST["botoningresar"])) {
-    if (empty($_POST["usuario"]) and empty($_POST["password"])) {
-        echo"LOS CAMPOS ESTAN VACIOS";
+if (!empty($_POST["botoningresar"])) {
+    if (empty($_POST["login"]) and empty($_POST["contraseña"])) {
+        echo "LOS CAMPOS ESTAN VACIOS";
     } else {
-        $usuario=$_POST['usuario'];
-        $clave=$_POST['password'];
-        $sql=$conexion->query("SELECT * FROM usuario where usuario='$usuario' and clave='$clave'");
-        if ($datos=$sql->fetch_object()) {
-            header("location:inicio.php");
+        $usuario = $_POST['login'];
+        $clave = $_POST['contraseña'];
+
+        // Utiliza sentencias preparadas de PDO
+        $sql = $conexion->prepare("SELECT * FROM usuarios_sistema WHERE login = usuario AND contraseña = clave");
+        $sql->execute();
+
+        // Utiliza fetch() de PDO correctamente
+        if ($conexion = $sql->fetch()) {
+            header("location:view/administrador/pagina_administrador.php");
         } else {
-            echo"ACCESO DENEGADO";
+            echo "ACCESO DENEGADO";
         }
-    }   
     }
-?>
+}

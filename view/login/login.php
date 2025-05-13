@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="view\login\styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
     <title>LOGIN SportZone 12344</title>
@@ -12,8 +12,8 @@
 
 <body>
     <?php
-        include "conexion_bd.php";
-        include "controlador.php";
+        include "models\conexion_bd.php";
+        include "controllers\controlador.php";
 
 
     ?>
@@ -41,7 +41,7 @@
                                             <h4 class="mt-1 mb-5 pb-1">¡Bienvenidos!</h4>
                                         </div>
 
-                                        <form method="POST" action="controlador.php">
+                                        <form method="POST" action="controllers/controlador.php">
                                             <p>Por favor inicia sesión con tu cuenta</p>
 
                                             <div data-mdb-input-init class="form-outline mb-4">
@@ -67,7 +67,7 @@
                                             <div class="text-center pt-1 mb-5 pb-1">
                                                 <button data-mdb-button-init data-mdb-ripple-init
                                                     class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3"
-                                                    type="button">Login</button><br>
+                                                    type="submit">Login</button><br>
 
                                                 <a class="text-muted" href="#!">¿Olvidaste tu contraseña?</a>
                                             </div>
