@@ -11,8 +11,8 @@ class InicioControlador{
     public function inicio(){
         $bd = database::Conectar();
 
-        require_once "view/inscripcion_estudent/header.php";
-        require_once "view/inscripcion_estudent/footer.php";
-        require_once "view/inscripcion_estudent/principal.php";
+        require_once "view/reportes/header.php";
+        require_once "view/reportes/footer.php";
+        require_once "view/reportes/principal.php";
     }
 }

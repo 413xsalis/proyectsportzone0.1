@@ -1,7 +1,7 @@
 <main class="app-content">
       <div class="app-title">
         <div>
-          <h1><i class="bi bi-speedometer"></i> Bienvenido</h1>
+          <h1><i class="bi bi-speedometer"></i> Reportes </h1>
           <p> Modulo Colaborador</p>
         </div>
         <ul class="app-breadcrumb breadcrumb">
@@ -81,14 +81,14 @@
           </div>
 
           <!-- Asistencia semanal -->
-          <div class="col-md-6">
+          <!--<div class="col-md-6">
             <div class="card">
               <div class="card-header asistencia-header">
                 Asistencia Semanal
               </div>
               <div class="card-body" id="asistencia">
                 <p>Sin datos por ahora.</p>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
