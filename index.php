@@ -10,46 +10,20 @@
 <body>
     <?php
     require_once 'controllers\Controlador.php';
-    require_once 'view\administrador\inicio\inicio1.php';
-    require_once 'view\administrador\Gestion_usuarios\Gestion_usuarios1.php';
+    require_once 'view\administrador\inicio\rutas.php';
+    require_once 'view\administrador\Gestion_usuarios\rutasgu.php';
 
 
     $controlador = new Controlador();
 
     if (isset($_GET["accion"])) {
         if ($_GET["accion"] == "Gestionar_usuarios") {
-            $controlador->verPagina('view\administrador\Gestion_usuarios\Gestion_usuario1.php');
+            $controlador->verPagina('view\administrador\Gestion_usuarios\rutasgu.php');
         }
-        if ($_GET["accion"] == "consultar") {
-            $controlador->verPagina('Vista/html/consultar.php');
-        }
-        if ($_GET["accion"] == "cancelar") {
-            $controlador->verPagina('Vista/html/cancelar.php');
-        } elseif ($_GET["accion"] == "guardarCita") {
-            $controlador->agregarCita(
-                $_POST["asignarDocumento"],
-                $_POST["medico"],
-                $_POST["fecha"],
-                $_POST["hora"],
-                $_POST["consultorio"]
-            );
-        } elseif ($_GET["accion"] == "consultarCita") {
-            $controlador->consultarCitas($_POST["consultarDocumento"]);
-        } elseif ($_GET["accion"] == "cancelarCita") {
-            $controlador->cancelarCitas($_POST["cancelarDocumento"]);
-        } elseif ($_GET["accion"] == "ConsultarPaciente") {
-            $controlador->consultarPaciente($_GET["documento"]);
-        } elseif ($_GET["accion"] == "ingresarPaciente") {
-            $controlador->agregarPaciente(
-                $_GET["PacDocumento"],
-                $_GET["PacNombres"],
-                $_GET["PacApellidos"],
-                $_GET["PacNacimiento"],
-                $_GET["PacSexo"]
-            );
-        }
+ 
     } else {
-        $controlador->verPagina('view\administrador\inicio\inicio1.php');
+      // $controlador->verPagina('view\administrador\Gestion_usuarios\rutasgu.php');
+        $controlador->verPagina('view\administrador\inicio\rutas.php');
     }
     ?>
 </body>

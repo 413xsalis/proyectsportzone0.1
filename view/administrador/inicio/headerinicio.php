@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Main CSS-->
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\main1.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    <title>Proyecto sportzone</title>
+    <title>Proyecto sportzone inicio</title>
   </head>
   <body class="app sidebar-mini">
     <!-- Navbar-->
@@ -78,7 +78,7 @@
         <div>
         <ul class="app-breadcrumb breadcrumb">
           <li class="breadcrumb-item"><i class="bi bi-house-door fs-6"></i></li>
-          <li class="app-sidebar__user-designation breadcrumb-item"><a href="#">Inicio</a></li>
+          <li class="app-sidebar__user-designation breadcrumb-item"><a href="index.php?accion=Gestionar_usuarios">Inicio</a></li>
 
         </div>
       </div>
@@ -105,64 +105,3 @@
           </ul>
         </li>
     </aside>
- <main class="app-content">
-      <div class="app-title">
-        <div>
-          <h1><i class="bi "></i> Bienvenido</h1>
-          <p></p>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-3">
-          <div class="widget-small primary coloured-icon">
-            <div class="info">
-              <h4>Total de Alumnos</h4>
-              <p><b>5</b></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="widget-small info coloured-icon">
-            <div class="info">
-              <h4>Entrenadores</h4>
-              <p><b>25</b></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="widget-small warning coloured-icon">
-            <div class="info">
-              <h4>Pagos Pendientes</h4>
-              <p><b>10</b></p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="tile">
-            <h3 class="tile-title">Pronto estara el calendario111</h3>
-            <div class="ratio ratio-16x9">
-              <div id="salesChart"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="tile">
-            <h3 class="tile-title">Asistencia Semanal</h3>
-            <div class="ratio ratio-16x9">
-              <div id="supportRequestChart"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    
-    <!-- Essential javascripts for application to work-->
-    <script src="assets/js/jquery-3.7.0.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
-</html>
