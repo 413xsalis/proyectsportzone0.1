@@ -10,7 +10,7 @@
         <div class="col-md-6 col-lg-3">
           <div class="widget-small primary coloured-icon">
             <div class="info">
-              <h4>Total de Alumnos11</h4>
+              <h4>Total de Alumnos</h4>
               <p><b>5</b></p>
             </div>
           </div>
@@ -36,7 +36,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="tile">
-            <h3 class="tile-title">Pronto estara el calendario</h3>
+            <h3 class="tile-title">Pronto</h3>
             <div class="ratio ratio-16x9">
               <div id="salesChart"></div>
             </div>
@@ -52,3 +52,4 @@
         </div>
       </div>
     </main>
+    

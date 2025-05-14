@@ -9,21 +9,21 @@
 
 <body>
     <?php
-    require_once 'controllers\Controlador.php';
-    require_once 'view\administrador\inicio\rutas.php';
-    require_once 'view\administrador\Gestion_usuarios\rutasgu.php';
+    require_once 'controllers/controlador.php';
+    require_once 'view/inicio123/rutas.php';
+    require_once 'view/asignar.php';
 
 
     $controlador = new Controlador();
 
     if (isset($_GET["accion"])) {
         if ($_GET["accion"] == "Gestionar_usuarios") {
-            $controlador->verPagina('view\administrador\Gestion_usuarios\rutasgu.php');
+            $controlador->verPagina('view\asignar.php');
         }
  
     } else {
-      // $controlador->verPagina('view\administrador\Gestion_usuarios\rutasgu.php');
-        $controlador->verPagina('view\administrador\inicio\rutas.php');
+       //$controlador->verPagina('view\Gestion_usuarios\rutasgu.php');
+        $controlador->verPagina('view\asignar.php');
     }
     ?>
 </body>

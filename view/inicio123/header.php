@@ -78,19 +78,14 @@
         <div>
         <ul class="app-breadcrumb breadcrumb">
           <li class="breadcrumb-item"><i class="bi bi-house-door fs-6"></i></li>
-          <li class="app-sidebar__user-designation breadcrumb-item"><a href="#">Inicio</a></li>
+          <li class="app-sidebar__user-designation breadcrumb-item"><a href="index.php?accion=Gestionar_usuarios">Inicio</a></li>
 
         </div>
       </div>
       <ul class="app-menu">
 
-        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon bi bi-laptop"></i><span class="app-menu__label">Gestion de Usuarios</span><i class="treeview-indicator bi bi-chevron-right"></i></a>
-          <ul class="treeview-menu">
-            <li><a class="treeview-item" href="bootstrap-components.html"><i class="icon bi bi-circle-fill"></i> Bootstrap Elements</a></li>
-            <li><a class="treeview-item" href="https://icons.getbootstrap.com/" target="_blank" rel="noopener"><i class="icon bi bi-circle-fill"></i> Font Icons</a></li>
-            <li><a class="treeview-item" href="ui-cards.html"><i class="icon bi bi-circle-fill"></i> Cards</a></li>
-            <li><a class="treeview-item" href="widgets.html"><i class="icon bi bi-circle-fill"></i> Widgets</a></li>
-          </ul>
+        <li class="treeview"><a class="app-menu__item" href="index.php?accion=Gestionar_usuarios" data-toggle="treeview"><i class="app-menu__icon bi bi-laptop"></i><span class="app-menu__label">Gestion de usuarios</span><i class="treeview-indicator bi bi-chevron-right"></i></a>
+
         </li>
         <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon bi bi-ui-checks"></i><span class="app-menu__label">Formulario de Empleados</span><i class="treeview-indicator bi bi-chevron-right"></i></a>
           <ul class="treeview-menu">
