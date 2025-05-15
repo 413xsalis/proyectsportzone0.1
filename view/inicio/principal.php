@@ -13,11 +13,7 @@
         <div class="col-md-6 col-lg-3">
           <div class="widget-small primary coloured-icon"><i class="icon bi bi-people fs-1"></i>
             <div class="info">
-<<<<<<< Updated upstream:view/html/administrador/inicio/principal.php
-              <h4>Total de Alumnos</h4>
-=======
               <h4>Users</h4>
->>>>>>> Stashed changes:view/administrador/inicio/principal.php
               <p><b>5</b></p>
             </div>
           </div>
@@ -50,13 +46,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="tile">
-<<<<<<< Updated upstream:view/html/administrador/inicio/principal.php
-
-             <label for="calendar" class="form-label">Selecciona una fecha:</label>
-            <input type="date" class="form-control" id="calendar">
-=======
             <h3 class="tile-title"> CALENDARIO</h3>
->>>>>>> Stashed changes:view/administrador/inicio/principal.php
             <div class="ratio ratio-16x9">
               <div id="salesChart"></div>
             </div>
@@ -70,20 +60,12 @@
             </div>
           </div>
         </div>
-<<<<<<< Updated upstream:view/html/administrador/inicio/principal.php
-      </div>
-
-<!-- class="col-md-10 main-content p-4">
-        <div class="d-flex justify-content-between align-items-center mb-4">
-          <h1 class="titulo"> Calendario </h1>
-=======
       </div>-->
 
         <!-- Main content -->
         <main class="col-md-10 main-content p-4">
         <div class="d-flex justify-content-between align-items-center mb-4">
           <h1 class="titulo">Calendario</h1>
->>>>>>> Stashed changes:view/administrador/inicio/principal.php
           <div>
             <i class="bi bi-bell mx-2"></i>
             <i class="bi bi-box-arrow-right mx-2"></i>
@@ -92,19 +74,6 @@
         </div>
 
         <div class="row">
-<<<<<<< Updated upstream:view/html/administrador/inicio/principal.php
-           Calendario 
-          <div class="col-md-6 mb-4">
-            <label for="calendar" class="form-label">Selecciona una fecha:</label>
-            <input type="date" class="form-control" id="calendar">
-          </div> 
-              
-            </div>
-          </div>
-        </div> -->
-
-
-=======
           <!-- Calendario -->
           <div class="col-md-6 mb-4">
             <label for="calendar" class="form-label">Selecciona una fecha:</label>
@@ -130,5 +99,4 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="app.js"></script>
->>>>>>> Stashed changes:view/administrador/inicio/principal.php
     </main>

@@ -12,18 +12,10 @@
   </head>
   <body class="app sidebar-mini">
     <!-- Navbar-->
-<<<<<<< Updated upstream:view/html/administrador/Gestion_usuarios/header.php
-  <body class="app sidebar-mini">
-    <!-- Navbar-->
-    <header class="app-header"><a class="app-header__logo" href="index.html">
-    <img src="assets/images/logo_sf.png" alt="SportZone Logo" style="height: 65px; vertical-align: middle;">
-      <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
-=======
     <header class="app-header"><a class="app-header__logo" href="index.html">
     <img src="assets/images/logo_sf.png" alt="SportZone Logo" style="height: 65px; vertical-align: middle;">
     </a>
       <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
->>>>>>> Stashed changes:view/administrador/inicio/headerinicio.php
       <!-- Navbar Right Menu-->
       <ul class="app-nav">
         <li class="app-search">
@@ -84,24 +76,6 @@
     <aside class="app-sidebar">
       <!--<div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="https://randomuser.me/api/portraits/men/1.jpg" alt="User Image">
         <div>
-<<<<<<< Updated upstream:view/html/administrador/Gestion_usuarios/header.php
-        <ul class="app-breadcrumb breadcrumb">
-          <li class="breadcrumb-item"><i class="bi bi-house-door fs-6"></i></li>
-          <li class="app-sidebar__user-designation breadcrumb-item"><a href="index.php?accion=inicio">Inicio</a></li>
-
-        </div>
-      </div>
-      <ul class="app-menu">
-
-        <a class="app-menu__item" href="index.php?accion=gestionar"></i><span class="app-menu__label">Gestion de
-            usuarios</span></a>
-
-        <a class="app-menu__item" href="index.php?accion=formulario"></i><span class="app-menu__label">Formulario de
-            empleados</span></a>
-        <a class="app-menu__item" href="index.php?accion=reportes_admin"></i><span
-            class="app-menu__label">Reportes</span></a>
-    </aside>
-=======
           <p class="app-sidebar__user-name">John Doe</p>
           <p class="app-sidebar__user-designation">Frontend Developer</p> -->
         </div>
@@ -143,4 +117,3 @@
       </ul> -->
     </aside>
  
->>>>>>> Stashed changes:view/administrador/inicio/headerinicio.php

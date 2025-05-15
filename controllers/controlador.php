@@ -1,13 +1,18 @@
-<?php
+<!-- ?php
 class Controlador
 {
     public function verPagina($ruta)
     {
         require_once $ruta;
+<<<<<<< Updated upstream
     }
     
 }
     // public function agregarCita($doc, $med, $fec, $hor, $con)
+=======
+    } -->
+<!-- // public function agregarCita($doc, $med, $fec, $hor, $con)
+>>>>>>> Stashed changes
     // {
 
     //     require_once 'Vista/html/confirmarCita.php';
@@ -45,6 +50,7 @@ class Controlador
     //         echo "Error al grabar el paciente";
     //     }
     // }
+<<<<<<< Updated upstream
 
 
 
@@ -67,3 +73,31 @@ class Controlador
 //         require_once "view/administrador/inicio/footer.php";
 //     }
 // } 
+=======
+} -->
+
+
+<?php
+
+
+class Controlador
+{
+    private $modelo;  // Propiedad para modelos 
+
+    public function __construct()
+    {
+        //$this->modelo=new Producto();
+    }
+
+    public function inicio()
+    {
+        // Obtiene conexión a la base de datos
+        $bd = Database::Conectar();
+        // // Carga las vistas en orden específico
+        require_once "view\administrador\inicio\principal.php";
+        require_once "view\administrador\inicio\headerinicio.php";
+        require_once "view/inicio/footer.php";
+    }
+}
+?>
+>>>>>>> Stashed changes
