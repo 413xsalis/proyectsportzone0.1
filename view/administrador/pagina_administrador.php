@@ -1,4 +1,4 @@
 <?php
-require_once "view/administrador/principal.php";
-require_once "view/administrador/header.php";
-require_once "view/administrador/footer.php";
+include "principal.php";
+include "header.php";
+include "footer.php";

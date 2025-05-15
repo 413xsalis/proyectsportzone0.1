@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // Redirigir según el rol
             switch ($rol) {
                 case "administrador":
-                    header("Location: view/administrador/index.php");
+                    header("Location: view/administrador/pagina_administrador.php");
                     exit;
                 case "colaboradores":
                     header("Location: colaboradores.php");
@@ -48,5 +48,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Faltan datos en el formulario.";
     }
 } else {
-    echo "Acceso no autorizado.";
+    echo "";
 }

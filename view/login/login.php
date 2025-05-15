@@ -12,8 +12,8 @@
 
 <body>
     <?php
-        include "models\conexion_bd.php";
-        include "controllers\controlador.php";
+        include ("models/conexion_bd.php");
+        include ("controllers/controlador.php");
 
 
     ?>
@@ -41,18 +41,18 @@
                                             <h4 class="mt-1 mb-5 pb-1">¡Bienvenidos!</h4>
                                         </div>
 
-                                        <form method="POST" action="controllers/controlador.php">
+                                        <form method="POST" action="../controllers/controlador.php">
                                             <p>Por favor inicia sesión con tu cuenta</p>
 
                                             <div data-mdb-input-init class="form-outline mb-4">
-                                                <input type="email" id="form2Example11" class="form-control"
+                                                <input type="email" name="login" id="form2Example11" class="form-control"
                                                     placeholder="" />
-                                                <label class="form-label" for="form2Example11">Usuario</label>
+                                                <label class="form-label" for="login">Usuario</label>
                                             </div>
 
                                             <div data-mdb-input-init class="form-outline mb-4">
-                                                <input type="password" id="form2Example22" class="form-control" />
-                                                <label class="form-label" for="form2Example22">Contraseña</label>
+                                                <input type="password" name="contraseña" id="form2Example22" class="form-control" />
+                                                <label class="form-label" for="contraseña">Contraseña</label>
                                             </div>
 
                                             <div class="mb-4">
