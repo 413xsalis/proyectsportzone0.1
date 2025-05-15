@@ -12,9 +12,10 @@
   </head>
   <body class="app sidebar-mini">
     <!-- Navbar-->
-    <header class="app-header"><img class="img-fluid " src="assets\images\logo4.png" alt="User Image" style="width: 229px; height: 60px;">
-    <!-- <header class="app-header"><a class="app-header__logo" src="assets\images\logo.png" alt="Logo Image"> -->
-   <!-- <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="assets\images\logo.png" alt="User Image"> -->
+  <body class="app sidebar-mini">
+    <!-- Navbar-->
+    <header class="app-header"><a class="app-header__logo" href="index.html">
+    <img src="assets/images/logo_sf.png" alt="SportZone Logo" style="height: 65px; vertical-align: middle;">
       <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
       <!-- Navbar Right Menu-->
       <ul class="app-nav">
@@ -78,25 +79,17 @@
         <div>
         <ul class="app-breadcrumb breadcrumb">
           <li class="breadcrumb-item"><i class="bi bi-house-door fs-6"></i></li>
-          <li class="app-sidebar__user-designation breadcrumb-item"><a href="index.php?accion=Gestionar_usuarios">Inicio</a></li>
+          <li class="app-sidebar__user-designation breadcrumb-item"><a href="index.php?accion=inicio">Inicio</a></li>
 
         </div>
       </div>
       <ul class="app-menu">
 
-        <li class="treeview"><a class="app-menu__item" href="index.php?accion=Gestionar_usuarios" data-toggle="treeview"><i class="app-menu__icon bi bi-laptop"></i><span class="app-menu__label">Gestion de usuarios</span><i class="treeview-indicator bi bi-chevron-right"></i></a>
+        <a class="app-menu__item" href="index.php?accion=gestionar"></i><span class="app-menu__label">Gestion de
+            usuarios</span></a>
 
-        </li>
-        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon bi bi-ui-checks"></i><span class="app-menu__label">Formulario de Empleados</span><i class="treeview-indicator bi bi-chevron-right"></i></a>
-          <ul class="treeview-menu">
-            <li><a class="treeview-item" href="form-components.html"><i class="icon bi bi-circle-fill"></i> Form Components</a></li>
-            <li><a class="treeview-item" href="form-samples.html"><i class="icon bi bi-circle-fill"></i> Form Samples</a></li>
-          </ul>
-        </li>
-        <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon bi bi-table"></i><span class="app-menu__label">Reportes</span><i class="treeview-indicator bi bi-chevron-right"></i></a>
-          <ul class="treeview-menu">
-            <li><a class="treeview-item" href="table-basic.html"><i class="icon bi bi-circle-fill"></i> Basic Tables</a></li>
-            <li><a class="treeview-item" href="table-data-table.html"><i class="icon bi bi-circle-fill"></i> Data Tables</a></li>
-          </ul>
-        </li>
+        <a class="app-menu__item" href="index.php?accion=formulario"></i><span class="app-menu__label">Formulario de
+            empleados</span></a>
+        <a class="app-menu__item" href="index.php?accion=reportes_admin"></i><span
+            class="app-menu__label">Reportes</span></a>
     </aside>

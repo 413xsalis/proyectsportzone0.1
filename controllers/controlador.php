@@ -5,6 +5,7 @@ class Controlador
     {
         require_once $ruta;
     }
+    
 }
     // public function agregarCita($doc, $med, $fec, $hor, $con)
     // {
