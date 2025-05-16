@@ -46,12 +46,13 @@
 
                                             <div data-mdb-input-init class="form-outline mb-4">
                                                 <input type="email" name="login" id="form2Example11" class="form-control"
-                                                    placeholder="" />
+                                                    placeholder="Digita tu usuario" />
                                                 <label class="form-label" for="login">Usuario</label>
                                             </div>
 
                                             <div data-mdb-input-init class="form-outline mb-4">
-                                                <input type="password" name="contraseña" id="form2Example22" class="form-control" />
+                                                <input type="password" name="contraseña" id="form2Example22" class="form-control" 
+                                                   placeholder="Digita la contraseña"/>
                                                 <label class="form-label" for="contraseña">Contraseña</label>
                                             </div>
 
