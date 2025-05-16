@@ -8,13 +8,15 @@
   <!-- Main CSS-->
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
   <!-- Font-icon css-->
-  <link rel="stylesheet" type="text/css"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Tu CSS personalizado -->
+  <link rel="stylesheet" href="assets/css/main.css">  <!-- Usa ruta absoluta con "/" -->
   <title>Proyecto sportzone</title>
 </head>
 
-<body class="app sidebar-mini">
-  <!-- Navbar-->
 
   <body class="app sidebar-mini">
     <!-- Navbar-->

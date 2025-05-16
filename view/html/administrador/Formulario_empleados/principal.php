@@ -1,7 +1,7 @@
 <main class="app-content">
     <div class="app-title">
         <div>
-            <h1><i class=""></i> Gestion de usuarios </h1>
+            <h1><i class=""></i> Formulario de empleados </h1>
         </div>
         <ul class="app-breadcrumb breadcrumb">
 
