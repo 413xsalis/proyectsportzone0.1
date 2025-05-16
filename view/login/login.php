@@ -12,8 +12,10 @@
 
 <body>
     <?php
-        include ("models/conexion_bd.php");
-        include ("controllers/controlador.php");
+        require_once "controllers/controlador.php";
+
+        $controlador = new ControladorLogin();
+        $controlador->login();
 
 
     ?>

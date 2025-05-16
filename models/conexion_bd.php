@@ -1,5 +1,9 @@
 <?php
-$conexion=new mysqli("localhost","root","","sportzone","3306");
-$conexion-> set_charset("utf8");
-
+function conectarBaseDatos() {
+    $conexion = new mysqli("localhost", "root", "", "sportzone");
+    if ($conexion->connect_error) {
+        die("Error de conexión: " . $conexion->connect_error);
+    }
+    return $conexion;
+}
 ?>
