@@ -84,7 +84,7 @@
         <div>
         <ul class="app-breadcrumb breadcrumb">
           <li class="breadcrumb-item"><i class="bi bi-house-door fs-6"></i></li>
-          <li class="app-sidebar__user-designation breadcrumb-item"><a href="index.php?accion=inicio">Inicio</a></li>
+          <li class="app-sidebar__user-designation breadcrumb-item"><a href="index.php?accion=inicio_admin">Inicio</a></li>
 
         </div>
       </div>
