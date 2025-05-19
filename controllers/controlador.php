@@ -1,7 +1,8 @@
 <?php
 session_start(); // Iniciar sesión aquí para asegurarte de que está disponible
 
-require_once  "models/conexion_bd.php";
+require_once(__DIR__ . "/../models/conexion_bd.php");
+
 
 if (!class_exists('ControladorLogin')) {
     class ControladorLogin
@@ -37,7 +38,7 @@ if (!class_exists('ControladorLogin')) {
                     // Redirigir según el rol
                     switch ($rol) {
                         case "administrador":
-                            header("Location: ../view/administrador/rutas.php");
+                            header("Location:../view/administrador/rutas.php");
                             exit;
                         case "colaboradores":
                             header("Location: colaboradores.php");

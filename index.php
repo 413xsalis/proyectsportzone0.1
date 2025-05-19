@@ -14,7 +14,7 @@
 
     if (isset($_GET["accion"])) {
         if ($_GET["accion"] == "inicio") {
-            $controlador->verPagina('view/html/administrador/inicio/rutas.php');
+            $controlador->verPagina('../view/administrador/rutas.php');
         } 
     } else {
         $controlador->verPagina('view/login/login.php');
