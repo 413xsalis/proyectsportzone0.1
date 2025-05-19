@@ -96,13 +96,13 @@
       </ul>
       </li>
       <li>
-        <a class="app-menu__item" href="URL-DE-DESTINO">
+        <a class="app-menu__item" href="index.php?accion=list_clases">
           <i class="app-menu__icon bi bi-ui-checks"></i>
           <span class="app-menu__label">Listado de clases</span>
         </a>
       </li>
       <li>
-        <a class="app-menu__item" href="URL-DE-DESTINO">
+        <a class="app-menu__item" href="index.php?accion=form_instructor">
           <i class="app-menu__icon bi bi-ui-checks"></i>
           <span class="app-menu__label">Reportes</span>
         </a>

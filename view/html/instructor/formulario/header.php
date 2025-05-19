@@ -94,7 +94,7 @@
         </a>
       </li>
       <li>
-        <a class="app-menu__item" href="URL-DE-DESTINO">
+        <a class="app-menu__item" href="#">
           <i class="app-menu__icon bi bi-ui-checks"></i>
           <span class="app-menu__label">Reportes</span>
         </a>

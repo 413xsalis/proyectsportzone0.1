@@ -27,9 +27,11 @@
             $controlador->verPagina('view/html/colaborador/reportes/rutas.php');
         }   elseif ($_GET["accion"] == "inicio_colab") {
             $controlador->verPagina('view/html/colaborador/inicio_colab/rutas.php'); 
+        }elseif ($_GET["accion"] == "form_instructor") {
+            $controlador->verPagina('view/html/instructor/formulario/rutas.php'); 
         }
     } else {
-        $controlador->verPagina('view/html/colaborador/inicio_colab/rutas.php');
+        $controlador->verPagina('view/html/instructor/inicio/rutas.php');
     }
     ?>
 </body>
