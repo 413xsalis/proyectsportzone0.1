@@ -5,7 +5,7 @@ class database{
     const servidor="localhost";
     const usuariobd="root";
     const clave="";
-    const nombrebd="proyectosportzone";
+    const nombrebd="sportzone";
 
 // Método para conectar a la base de datos
     public static function Conectar(){
