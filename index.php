@@ -12,10 +12,12 @@
 
     $controlador = new ControladorLogin();
 
-    if (isset($_GET["accion"])) {
-        if ($_GET["accion"] == "inicio") {
-            $controlador->verPagina('../view/administrador/rutas.php');
-        } 
+    if (isset($_GET["accion"]) == "inicio") {
+        if ($_GET["administrador"] === "administrador") {
+            $controlador->verPagina('view/administrador/rutas.php');
+        } elseif ($_GET["colaboradores"] === "colaboradores") {
+            $controlador->verPagina('view/colaborador/rutas.php');
+        }
     } else {
         $controlador->verPagina('view/login/login.php');
     }

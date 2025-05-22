@@ -1,6 +1,6 @@
 <?php
-include 'view/html/administrador/inicio/principal.php';
-include 'view/html/administrador/inicio/header.php';
-include 'view/html/administrador/inicio/footer.php';
+include 'view/administrador/header.php';
+include 'view/administrador/principal.php';
+include 'view/administrador/footer.php';
 
 ?>

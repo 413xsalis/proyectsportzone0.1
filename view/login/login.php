@@ -43,7 +43,7 @@
                                             <h4 class="mt-1 mb-5 pb-1">¡Bienvenidos!</h4>
                                         </div>
 
-                                        <form method="POST" action="../controllers/controlador.php">
+                                        <form method="POST" action="">
                                             <p>Por favor inicia sesión con tu cuenta</p>
 
                                             <div data-mdb-input-init class="form-outline mb-4">
